@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library System</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="navbar">
+        <section id="left">Library System</section>
+        <section id="right">
+            <a href="#book">Books</a>
+            <a href="#register">Register</a>
+            Contact Us
+            <span>Logout</span>
+        </section>
+    </section>
+
+    <section class="books" id="book">
+        <h3>Books</h3>
+        <br>
+        <table border="1px" style="border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th>Book Id</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <a href="https://en.wikipedia.org/wiki/The_Jungle_Book" target="_blank">The Jungle Book</a>
+                        <br>
+                        <br>
+                        <table border="1px" style="border-collapse: collapse;">
+                            <tr>
+                                <td>Publication Date: 2000</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 250</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 123-4567890123</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Rudyard Kipling</td>
+                    <td>Wild</td>
+                    <td>Available</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings" target="_blank">The Lord of the Rings</a>
+                        <br>
+                        <br>
+                        <table border="1px" style="border-collapse: collapse;">
+                            <tr>
+                                <td>Publication Date: 2005</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 300</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 123-4567890456</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>John Ronald Renuel Tolkien</td>
+                    <td>Fantasy</td>
+                    <td>Not Available</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <a href="https://en.wikipedia.org/wiki/The_Little_Prince" target="_blank">The Little Prince</a>
+                        <br>
+                        <br>
+                        <table border="1px" style="border-collapse: collapse;">
+                            <tr>
+                                <td>Publication Date: 2010</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 350</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 123-4567890789</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Antoine de Saint-Exupery</td>
+                    <td>Fiction & Fantacy</td>
+                    <td>Available</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>
+                        <a href="https://en.wikipedia.org/wiki/Wuthering_Heights" target="_blank">Wuthering Heights</a>
+                        <br>
+                        <br>
+                        <table border="1px" style="border-collapse: collapse;">
+                            <tr>
+                                <td>Publication Date: 2015</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 400</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 123-4567890012</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Emily Bronte</td>
+                    <td>Gothic</td>
+                    <td>Not Available</td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td>
+                        <a href="https://en.wikipedia.org/wiki/Beloved_(novel)" target="_blank">Beloved</a>
+                        <br>
+                        <br>
+                        <table border="1px" style="border-collapse: collapse;">
+                            <tr>
+                                <td>Publication Date: 2020</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 450</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 123-4567890345</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Toni Morrison</td>
+                    <td>Love, Magical & Historical Fiction</td>
+                    <td>Available</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="form" id="register">
+        <h3>Register</h3>
+        <br>
+        <form>
+            <label for="first-name">First Name:</label>
+            <br>
+            <input type="text" name="first-name" id="first-name" required>
+            <br>
+
+            <label for="last-name">Last Name:</label>
+            <br>
+            <input type="text" name="last-name" id="last-name" required>
+            <br>
+
+            <label for="dob">Date Of Birth:</label>
+            <br>
+            <input type="date" name="dob" id="dob" required>
+            <br>
+
+            <label for="age">Age:</label>
+            <br>
+            <input type="number" name="age" id="age" min="5" max="100" required>
+            <br>
+
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" name="email" id="email" required>
+            <br>
+
+            <label for="password">Password:</label>
+            <br>
+            <input type="password" name="password" id="password" required>
+            <br>
+
+            <label for="confirm-password">Confirm Password</label>
+            <br>
+            <input type="password" name="confirm-password" id="confirm-password" required>
+            <br>
+            <button>Register</button>
+        </form>
+    </section>
+
+
+</body>
+</html>

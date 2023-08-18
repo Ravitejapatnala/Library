@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #EEEDEF;
+}
+
+/* NAVBAR */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding: 1em;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar #right a{
+    text-decoration: none;
+    color: white;
+    padding-inline: 1em;
+}
+
+.navbar #right span{
+    padding-inline: 1em;
+}
+
+.navbar #left:hover{
+    color: lightblue;
+    cursor: pointer;
+}
+
+.navbar #right a:hover{
+    color: lightblue;
+    cursor: pointer;
+}
+
+/* BOOKS */
+
+.books{
+    font-family: 'Inter', sans-serif;
+    margin-left: 300px;
+    margin-top: 50px;
+    background-color: white;
+    width: 630px;
+    border-radius: 5px;
+    padding:20px
+}
+
+.books table{
+    margin-left: 6px;
+}
+.books h3{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+tr, th{
+    padding: 10px;
+    text-align: left;
+}
+
+tr, td{
+    padding: 8px;
+}
+
+/* form */
+
+.form{
+    font-family: 'Inter', sans-serif;
+    margin-left: 300px;
+    margin-top: 30px;
+    background-color: white;
+    width: 630px;
+    border-radius: 5px;
+    padding:20px;
+    margin-bottom: 50px;
+}
+
+.form form input{
+    width: 600px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    width: 600px;
+    height: 25px;
+    text-align: center;
+    border: none;
+}
