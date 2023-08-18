@@ -82,6 +82,11 @@ tr, td{
     margin-bottom: 50px;
 }
 
+.form h3{
+    font-weight: 700;
+    font-size: 25px;
+}
+
 .form form input{
     width: 600px;
     height: 25px;
